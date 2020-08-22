@@ -45,11 +45,13 @@ $ php artisan serve
 ```
 * Note*: dibagian ini teman-teman boleh isi sesuai API Key dari pusher,
 jika ingin menggunakan ini boleh tapi sebagai demo saya ya teman-teman:
-
+```bash
 PUSHER_APP_ID=1054458
 PUSHER_APP_KEY=60d25eee9e5168c2ac78
 PUSHER_APP_SECRET=b164c9a4dcce12c58497
 PUSHER_APP_CLUSTER=ap1
-
+```
 * kemudian ubah bagian ini menjadi pusher
+```bash
 BROADCAST_DRIVER=pusher
+```
