@@ -2,14 +2,13 @@
     <div class="chat-lists">
         <div class="messages" v-for="chat in chats" :key="chat">
             <div class="media border rounded-sm p-1">
-                <img src="http://via.placeholder.com/50" alt="" class="rounded-circle mr-3">
+                <img src="https://clipartstation.com/wp-content/uploads/2017/11/user-clipart-6.png" alt="" class="rounded-circle mr-3 border" width="30px">
                 <div class="media-body">
                     <h5 class="mt-0 mb-0">{{chat.user.name}}</h5>
                     <p class="mb-0 mt-1">{{chat.subject}}</p>
                     <small class="float-right mr-2">{{chat.created_at}}</small>
                 </div>
             </div>
-
         </div>
     </div>
 </template>

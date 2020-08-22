@@ -23,3 +23,7 @@ Route::view('/chat', 'chat.index')->middleware('auth');
 
 Route::get('/chat/all-chats', 'ChatController@allChat');
 Route::post('/chat/store', 'ChatController@store');
+
+Route::get('/sites/maintenance', function (){
+    return Artisan::call('down');
+});

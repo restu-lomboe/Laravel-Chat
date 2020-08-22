@@ -2046,7 +2046,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -65749,8 +65748,13 @@ var render = function() {
       return _c("div", { key: chat, staticClass: "messages" }, [
         _c("div", { staticClass: "media border rounded-sm p-1" }, [
           _c("img", {
-            staticClass: "rounded-circle mr-3",
-            attrs: { src: "http://via.placeholder.com/50", alt: "" }
+            staticClass: "rounded-circle mr-3 border",
+            attrs: {
+              src:
+                "https://clipartstation.com/wp-content/uploads/2017/11/user-clipart-6.png",
+              alt: "",
+              width: "30px"
+            }
           }),
           _vm._v(" "),
           _c("div", { staticClass: "media-body" }, [
