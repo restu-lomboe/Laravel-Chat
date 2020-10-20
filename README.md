@@ -11,8 +11,10 @@ $ cd laravel-chat
 ```bash
 $ composer install
 ```
-* buat file .env lalu isi file tersebut dengan seluruh isi dari file .env.example
-
+* jalankan perintah berikut untuk mengcopy file .env.example menjadi .env
+```bash
+$ cp .env.example .env
+```
 * jalankan perintah php artisan key generate
 ```bash
 $ php artisan key:generate
