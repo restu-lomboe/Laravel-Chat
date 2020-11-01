@@ -37,6 +37,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    /**
+     * Get the chats for the user.
+     */
     public function chat()
     {
         return $this->hasMany(Chat::class);
