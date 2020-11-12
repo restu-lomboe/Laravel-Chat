@@ -66,7 +66,7 @@ BROADCAST_DRIVER=pusher
 ```
 
 ## 2. Serve
-* Setelah itu kalian sudah bisa lanjut menjalankan Laravel _server_
+* Setelah itu kalian sudah bisa lanjut menjalankan Laravel _serve_
 ```bash
 $ php artisan serve
 ```
